@@ -19,13 +19,12 @@ target 'KnowledgeCards' do
 
   # Tools
   pod 'Firebase/Crashlytics'
+  pod 'FirebaseAnalytics'
   pod 'R.swift'
   pod 'Factory'
 
   # Development
-  pod 'SwiftLint'
   pod 'Wormholy', :configurations => ['Debug Development', 'Debug Staging', 'Debug Production']
-  pod 'xcbeautify'
 
   target 'KnowledgeCardsTests' do
     inherit! :search_paths

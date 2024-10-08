@@ -13,13 +13,9 @@ let R = _R(bundle: Bundle(for: BundleFinder.self))
 struct _R: Sendable {
   let bundle: Foundation.Bundle
   var color: color { .init(bundle: bundle) }
-  var file: file { .init(bundle: bundle) }
   var storyboard: storyboard { .init(bundle: bundle) }
 
   func color(bundle: Foundation.Bundle) -> color {
-    .init(bundle: bundle)
-  }
-  func file(bundle: Foundation.Bundle) -> file {
     .init(bundle: bundle)
   }
   func storyboard(bundle: Foundation.Bundle) -> storyboard {
@@ -39,17 +35,6 @@ struct _R: Sendable {
 
     /// Color `AccentColor`.
     var accentColor: RswiftResources.ColorResource { .init(name: "AccentColor", path: [], bundle: bundle) }
-  }
-
-  /// This `_R.file` struct is generated, and contains static references to 2 resource files.
-  struct file {
-    let bundle: Foundation.Bundle
-
-    /// Resource file `DebugDevelopment.xcconfig`.
-    var debugDevelopmentXcconfig: RswiftResources.FileResource { .init(name: "DebugDevelopment", pathExtension: "xcconfig", bundle: bundle, locale: LocaleReference.none) }
-
-    /// Resource file `ReleaseDevelopment.xcconfig`.
-    var releaseDevelopmentXcconfig: RswiftResources.FileResource { .init(name: "ReleaseDevelopment", pathExtension: "xcconfig", bundle: bundle, locale: LocaleReference.none) }
   }
 
   /// This `_R.storyboard` struct is generated, and contains static references to 1 storyboards.

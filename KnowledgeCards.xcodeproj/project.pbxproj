@@ -16,8 +16,6 @@
 		1C01A4222CB59C21005821E4 /* ReleaseDevelopment.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1C01A4202CB59C21005821E4 /* ReleaseDevelopment.xcconfig */; };
 		1C01A4232CB59C21005821E4 /* DebugDevelopment.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1C01A41F2CB59C21005821E4 /* DebugDevelopment.xcconfig */; };
 		1C01A4242CB59C21005821E4 /* ReleaseDevelopment.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1C01A4202CB59C21005821E4 /* ReleaseDevelopment.xcconfig */; };
-		1C01A4252CB59C21005821E4 /* DebugDevelopment.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1C01A41F2CB59C21005821E4 /* DebugDevelopment.xcconfig */; };
-		1C01A4262CB59C21005821E4 /* ReleaseDevelopment.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1C01A4202CB59C21005821E4 /* ReleaseDevelopment.xcconfig */; };
 		1C01A4272CB59C21005821E4 /* DebugDevelopment.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1C01A41F2CB59C21005821E4 /* DebugDevelopment.xcconfig */; };
 		1C01A4282CB59C21005821E4 /* ReleaseDevelopment.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1C01A4202CB59C21005821E4 /* ReleaseDevelopment.xcconfig */; };
 		1C01A4292CB59C21005821E4 /* DebugDevelopment.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1C01A41F2CB59C21005821E4 /* DebugDevelopment.xcconfig */; };
@@ -948,7 +946,6 @@
 			buildPhases = (
 				EC70530D82BDC9ADDE24AC97 /* [CP] Check Pods Manifest.lock */,
 				A62D627BAD1AF17B38E93912 /* R.swift */,
-				AB3B6E23C3B0D831E8F43EBF /* SwiftLint */,
 				C8847C5542191F5DC066CDEC /* SwiftFormat Lint */,
 				64BBA165E4E9DD31C1ACD05C /* Sources */,
 				EAE9BB4D5B74B0C9A291C15F /* Resources */,
@@ -1088,8 +1085,6 @@
 			files = (
 				AE08B108E258DE47F1656F76 /* Assets.xcassets in Resources */,
 				34D318021E154C9B5000E8AE /* LaunchScreen.storyboard in Resources */,
-				1C01A4252CB59C21005821E4 /* DebugDevelopment.xcconfig in Resources */,
-				1C01A4262CB59C21005821E4 /* ReleaseDevelopment.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1255,24 +1250,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/$PROJECT_NAME/Sources/Supports/Helpers/Rswift/R.generated.swift\"\n";
-		};
-		AB3B6E23C3B0D831E8F43EBF /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [ -z \"$CI\" ]; then\n    ${PODS_ROOT}/SwiftLint/swiftlint\nfi";
 		};
 		C322D25911C963E3026372B1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
