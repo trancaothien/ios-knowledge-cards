@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ios-templates}/Scripts/Swift/iOSTemplateMaker",
+            "name": "Debug iOSTemplateMaker (Scripts/Swift/iOSTemplateMaker)",
+            "program": "${workspaceFolder:ios-templates}/Scripts/Swift/iOSTemplateMaker/.build/debug/iOSTemplateMaker",
+            "preLaunchTask": "swift: Build Debug iOSTemplateMaker (Scripts/Swift/iOSTemplateMaker)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ios-templates}/Scripts/Swift/iOSTemplateMaker",
+            "name": "Release iOSTemplateMaker (Scripts/Swift/iOSTemplateMaker)",
+            "program": "${workspaceFolder:ios-templates}/Scripts/Swift/iOSTemplateMaker/.build/release/iOSTemplateMaker",
+            "preLaunchTask": "swift: Build Release iOSTemplateMaker (Scripts/Swift/iOSTemplateMaker)"
+        }
+    ]
+}
