@@ -10,8 +10,8 @@
 		02280E8D14B3D141C717534D /* RequestConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC613FE03CD60CB79CE57D2 /* RequestConfiguration.swift */; };
 		031D9F3EB265B99F1C4BC72F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BBF5A93A41DC47B78E6C35 /* HomeView.swift */; };
 		03350D5EC5FCCEB5DF3E2830 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4863597E390DE813D9D1FCF8 /* Typealiases.swift */; };
-		0B46EC03A0AFA63BD058A027 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2495F6AE8A31FC28E4D5D2 /* Domain.framework */; platformFilter = ios; };
-		0ECF652EC76F2F6E319189F2 /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD2495F6AE8A31FC28E4D5D2 /* Domain.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0B46EC03A0AFA63BD058A027 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2495F6AE8A31FC28E4D5D2 /* Domain.framework */; };
+		0ECF652EC76F2F6E319189F2 /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD2495F6AE8A31FC28E4D5D2 /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1C01A4212CB59C21005821E4 /* DebugDevelopment.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1C01A41F2CB59C21005821E4 /* DebugDevelopment.xcconfig */; };
 		1C01A4222CB59C21005821E4 /* ReleaseDevelopment.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1C01A4202CB59C21005821E4 /* ReleaseDevelopment.xcconfig */; };
 		1C01A4232CB59C21005821E4 /* DebugDevelopment.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1C01A41F2CB59C21005821E4 /* DebugDevelopment.xcconfig */; };
@@ -29,7 +29,7 @@
 		45F2FD0E257479E8F5C1EDB6 /* Pods_Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEFA1465C369FA5EC3FFD592 /* Pods_Data.framework */; };
 		479FC243FAEE4CE04DA88DE5 /* NetworkAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998AD5A64CAE719F65FF829F /* NetworkAPIError.swift */; };
 		6C244721188E23AA7DA64116 /* Optional+Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDD37680E28FF7F40C111A /* Optional+Unwrap.swift */; };
-		6DA7B3F1DD68439F2ED63CDA /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DD08C3F47F3DAE286BA815 /* Data.framework */; platformFilter = ios; };
+		6DA7B3F1DD68439F2ED63CDA /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DD08C3F47F3DAE286BA815 /* Data.framework */; };
 		8B75D29D8ABA28DDFE163C69 /* KnowledgeCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FED7912F831A8960B0B7F7 /* KnowledgeCardsApp.swift */; };
 		8ED5E4FBE4C902CB1982542F /* Pods_Domain_DomainTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B44A7213C924E1E2202C873 /* Pods_Domain_DomainTests.framework */; };
 		9D131F5C890E3858740E81F8 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2495F6AE8A31FC28E4D5D2 /* Domain.framework */; platformFilter = ios; };
@@ -42,7 +42,7 @@
 		C9842266B912656EF74FE56E /* Color+Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEF172309A25BDE63212A33 /* Color+Application.swift */; };
 		CC3DFB8938C8CA74011EF0FE /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2495F6AE8A31FC28E4D5D2 /* Domain.framework */; platformFilter = ios; };
 		DD47E44FCB7D62006F064B09 /* Pods_Data_DataTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF493FF861DF58F35AFAA1B /* Pods_Data_DataTests.framework */; };
-		E2BE05B222C220C768E96B4E /* Data.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 81DD08C3F47F3DAE286BA815 /* Data.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E2BE05B222C220C768E96B4E /* Data.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 81DD08C3F47F3DAE286BA815 /* Data.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F5BA1F5A70B6371176E39EC9 /* NetworkAPIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3553FFD29BB0BF958F421956 /* NetworkAPIProtocol.swift */; };
 		FF59C6694645B4E7E41C7CC2 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DD08C3F47F3DAE286BA815 /* Data.framework */; platformFilter = ios; };
 /* End PBXBuildFile section */
@@ -171,6 +171,7 @@
 		1C42362C2CB576B10001FEA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1C42362E2CB576B10001FEA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1C731A0A2CB597A50005BD30 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1CC1A3F42CBABF2E0063C1A4 /* KnowledgeCards.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = KnowledgeCards.entitlements; path = KnowledgeCards/KnowledgeCards.entitlements; sourceTree = "<group>"; };
 		20FED7912F831A8960B0B7F7 /* KnowledgeCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowledgeCardsApp.swift; sourceTree = "<group>"; };
 		2245B08D2E8BD4821C342B9C /* UseCaseFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseFactoryProtocol.swift; sourceTree = "<group>"; };
 		274518198ACE519ADA1C58ED /* DomainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -745,6 +746,7 @@
 		BED04893B211F87E6DE2F9A8 = {
 			isa = PBXGroup;
 			children = (
+				1CC1A3F42CBABF2E0063C1A4 /* KnowledgeCards.entitlements */,
 				984F6C16176D944F3A3CC5F0 /* Project */,
 				D4CA6D5809B8C0F3EAEF8992 /* Frameworks */,
 				2EBA7204B74AC3638FAD6433 /* Products */,
@@ -883,7 +885,6 @@
 			buildConfigurationList = 7CEED267A4A827376F390B50 /* Build configuration list for PBXNativeTarget "KnowledgeCardsTests" */;
 			buildPhases = (
 				FDFA811E2E7DBABEE103704F /* [CP] Check Pods Manifest.lock */,
-				8987A2972C6F41CBB64DD94B /* SwiftFormat */,
 				A63235EAEBC2B114D51EFD92 /* Sources */,
 				0BC6A47A7A667F1C59E1311E /* Resources */,
 				5310E13BB747E9221D7EC89E /* Embed Frameworks */,
@@ -946,7 +947,6 @@
 			buildPhases = (
 				EC70530D82BDC9ADDE24AC97 /* [CP] Check Pods Manifest.lock */,
 				A62D627BAD1AF17B38E93912 /* R.swift */,
-				C8847C5542191F5DC066CDEC /* SwiftFormat Lint */,
 				64BBA165E4E9DD31C1ACD05C /* Sources */,
 				EAE9BB4D5B74B0C9A291C15F /* Resources */,
 				1C731A062CB595130005BD30 /* Copy GoogleService-Info.plist */,
@@ -1213,24 +1213,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8987A2972C6F41CBB64DD94B /* SwiftFormat */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftFormat;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [ -z \"$CI\" ]; then\n    \"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" \"$SRCROOT\"\nfi";
-		};
 		A62D627BAD1AF17B38E93912 /* R.swift */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
@@ -1289,24 +1271,6 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
-		};
-		C8847C5542191F5DC066CDEC /* SwiftFormat Lint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "SwiftFormat Lint";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [ -z \"$CI\" ]; then\n    \"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" \"$SRCROOT\" --lint --lenient\nfi\n";
 		};
 		DBC9E3B5C1FE4E572D89D613 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1648,6 +1612,7 @@
 			baseConfigurationReference = 9AE185914CA6B4F9EC2735D5 /* Pods-KnowledgeCards.debug development.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KnowledgeCards/KnowledgeCards.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DISPLAY_NAME = "Quick Knowledge";
 				ENABLE_PREVIEWS = YES;
@@ -1660,12 +1625,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_BUNDLE_IDENTIFIER}";
 				PRODUCT_NAME = KnowledgeCards;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Debug Development";
 		};
@@ -1858,6 +1824,7 @@
 			baseConfigurationReference = A72AADECA6FF5A79EE2A5950 /* Pods-KnowledgeCards.release development.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KnowledgeCards/KnowledgeCards.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DISPLAY_NAME = "Quick Knowledge";
 				ENABLE_PREVIEWS = YES;
@@ -1870,11 +1837,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_BUNDLE_IDENTIFIER}";
 				PRODUCT_NAME = KnowledgeCards;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Release Development";
 		};
@@ -2174,6 +2142,7 @@
 			baseConfigurationReference = 2DDFF558797894F82C7D9B0C /* Pods-KnowledgeCards.release staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KnowledgeCards/KnowledgeCards.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DISPLAY_NAME = "Quick Knowledge";
 				ENABLE_PREVIEWS = YES;
@@ -2186,11 +2155,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_BUNDLE_IDENTIFIER}";
 				PRODUCT_NAME = KnowledgeCards;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Release Staging";
 		};
@@ -2369,6 +2339,7 @@
 			baseConfigurationReference = 93CE6D45A1BD3778894A7314 /* Pods-KnowledgeCards.debug staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KnowledgeCards/KnowledgeCards.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DISPLAY_NAME = "Quick Knowledge";
 				ENABLE_PREVIEWS = YES;
@@ -2381,12 +2352,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_BUNDLE_IDENTIFIER}";
 				PRODUCT_NAME = KnowledgeCards;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Debug Staging";
 		};
@@ -2589,7 +2561,10 @@
 			baseConfigurationReference = CB654C38774F020AEC17FF85 /* Pods-KnowledgeCards.debug production.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = KnowledgeCards/KnowledgeCards.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				DISPLAY_NAME = "Quick Knowledge";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = KnowledgeCards/Configurations/Plists/Info.plist;
@@ -2600,13 +2575,15 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_BUNDLE_IDENTIFIER}";
 				PRODUCT_NAME = KnowledgeCards;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Debug Production";
 		};
@@ -2640,7 +2617,10 @@
 			baseConfigurationReference = 42E0A8AB1E9A288F7F21777C /* Pods-KnowledgeCards.release production.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = KnowledgeCards/KnowledgeCards.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				DISPLAY_NAME = "Quick Knowledge";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = KnowledgeCards/Configurations/Plists/Info.plist;
@@ -2651,12 +2631,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_BUNDLE_IDENTIFIER}";
 				PRODUCT_NAME = KnowledgeCards;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Release Production";
 		};

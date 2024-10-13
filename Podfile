@@ -3,7 +3,6 @@ use_frameworks!
 inhibit_all_warnings!
 
 def testing_pods
-  pod 'SwiftFormat/CLI'
   pod 'OHHTTPStubs/Swift', :configurations => ['Debug Development', 'Debug Staging', 'Debug Production']
 end
 

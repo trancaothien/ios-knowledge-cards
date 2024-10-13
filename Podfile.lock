@@ -130,7 +130,6 @@ PODS:
   - PromisesSwift (2.4.0):
     - PromisesObjC (= 2.4.0)
   - R.swift (7.7.0)
-  - SwiftFormat/CLI (0.54.5)
   - Wormholy (1.7.0)
 
 DEPENDENCIES:
@@ -142,7 +141,6 @@ DEPENDENCIES:
   - Kingfisher
   - OHHTTPStubs/Swift
   - R.swift
-  - SwiftFormat/CLI
   - Wormholy
 
 SPEC REPOS:
@@ -168,7 +166,6 @@ SPEC REPOS:
     - PromisesObjC
     - PromisesSwift
     - R.swift
-    - SwiftFormat
     - Wormholy
 
 SPEC CHECKSUMS:
@@ -193,9 +190,8 @@ SPEC CHECKSUMS:
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   PromisesSwift: 9d77319bbe72ebf6d872900551f7eeba9bce2851
   R.swift: 33e7082885d0c0bac7ae20ef7d2845a6a920ca11
-  SwiftFormat: 543a7b1ab4a6ce2d88bd5616a17903446ca3dc5c
   Wormholy: ab1c8c2f02f58587a0941deb0088555ffbf039a1
 
-PODFILE CHECKSUM: 33caa59397f63c38be4469f64cbd782cdefe35ba
+PODFILE CHECKSUM: 63f76ee9612f1620aad1edf318034a6f2cc3751c
 
 COCOAPODS: 1.15.2

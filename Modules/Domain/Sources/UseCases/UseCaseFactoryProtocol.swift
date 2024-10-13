@@ -2,4 +2,6 @@
 //  UseCaseFactoryProtocol.swift
 //
 
-protocol UseCaseFactoryProtocol: AnyObject {}
+protocol UseCaseFactoryProtocol: AnyObject {
+}
+
